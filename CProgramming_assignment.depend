@@ -1,0 +1,1595 @@
+# depslib dependency file v1.0
+1384425623 source:c:\clab2013-with-solutions\assignment\src\graphics1.c
+	<graphics_lib.h>
+
+1381948618 c:\clab2013-with-solutions\assignment\include\graphics_lib.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<termios.h>
+	<unistd.h>
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/system.h"
+	"allegro5/memory.h"
+	"allegro5/debug.h"
+	"allegro5/error.h"
+	"allegro5/utf8.h"
+	"allegro5/altime.h"
+	"allegro5/events.h"
+	"allegro5/mouse.h"
+	"allegro5/timer.h"
+	"allegro5/keyboard.h"
+	"allegro5/joystick.h"
+	"allegro5/threads.h"
+	"allegro5/display.h"
+	"allegro5/transformations.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap.h"
+	"allegro5/tls.h"
+	"allegro5/file.h"
+	"allegro5/fshook.h"
+	"allegro5/path.h"
+	"allegro5/fmaths.h"
+	"allegro5/config.h"
+	"allegro5/alcompat.h"
+
+1340546880 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1340546880 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/aldjgpp.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/aldmc.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/albecfg.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alqnxcfg.h"
+	"allegro5/platform/alwizcfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1380823910 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\platform\alplatf.h
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\platform\alwizcfg.h
+	<fcntl.h>
+	<unistd.h>
+	"allegro5/platform/alplatf.h"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\platform\alunix.h
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1340546880 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\config.h
+	"allegro5/file.h"
+
+1330864568 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1340546878 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\path.h
+	"allegro5/base.h"
+
+1340546880 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\utf8.h
+	"allegro5/base.h"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\memory.h
+
+1340546880 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\error.h
+	"allegro5/base.h"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\altime.h
+	"allegro5/base.h"
+
+1300072372 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\events.h
+	"allegro5/base.h"
+
+1296182512 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\mouse.h
+	"allegro5/base.h"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\timer.h
+	"allegro5/base.h"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/keycodes.h"
+
+1296182512 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\keycodes.h
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\joystick.h
+	"allegro5/base.h"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\threads.h
+	"allegro5/altime.h"
+
+1340546880 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\display.h
+	"allegro5/color.h"
+	"allegro5/bitmap.h"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\color.h
+
+1330864568 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1292522530 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\transformations.h
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\tls.h
+	"allegro5/base.h"
+
+1340546878 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\fixed.h
+	"allegro5/base.h"
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\inline\fmaths.inl
+
+1289806922 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\alcompat.h
+
+1340546886 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1289806932 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\allegro_image.h
+
+1330864572 c:\clab2013-with-solutions\assignment\include\allegro\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1381948560 source:c:\clab2013-with-solutions\assignment\include\graphics_lib_functions.c
+	<graphics_lib.h>
+
+1382862781 source:c:\clab2013-with-solutions\assignment\src\music1.c
+	<amio_lib.h>
+
+1382027856 c:\clab2013-with-solutions\assignment\include\amio_lib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"sndfile.h"
+	"portaudio.h"
+	"portmidi.h"
+	"porttime.h"
+
+1366032852 c:\clab2013-with-solutions\assignment\include\libsndfile\sndfile.h
+	<stdio.h>
+	<sys/types.h>
+
+1314290642 c:\clab2013-with-solutions\assignment\include\portaudio\portaudio.h
+
+1340892244 c:\clab2013-with-solutions\assignment\include\portmidi\portmidi.h
+	<stdint.h>
+
+1340892244 c:\clab2013-with-solutions\assignment\include\portmidi\porttime.h
+	<stdint.h>
+
+1382027602 source:c:\clab2013-with-solutions\assignment\include\amio_lib_functions.c
+	<amio_lib.h>
+
+1387720434 source:c:\clab2013-with-solutions\assignment\src\assignment.c
+	<graphics_lib.h>
+	<amio_lib.h>
+
+1382027602 source:c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\amio_lib_functions.c
+	<amio_lib.h>
+
+1382027856 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\amio_lib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"sndfile.h"
+	"portaudio.h"
+	"portmidi.h"
+	"porttime.h"
+
+1366032852 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\libsndfile\sndfile.h
+	<stdio.h>
+	<sys/types.h>
+
+1314290642 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\portaudio\portaudio.h
+
+1340892244 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\portmidi\portmidi.h
+	<stdint.h>
+
+1340892244 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\portmidi\porttime.h
+	<stdint.h>
+
+1381948560 source:c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\graphics_lib_functions.c
+	<graphics_lib.h>
+
+1381948618 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\graphics_lib.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<termios.h>
+	<unistd.h>
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/system.h"
+	"allegro5/memory.h"
+	"allegro5/debug.h"
+	"allegro5/error.h"
+	"allegro5/utf8.h"
+	"allegro5/altime.h"
+	"allegro5/events.h"
+	"allegro5/mouse.h"
+	"allegro5/timer.h"
+	"allegro5/keyboard.h"
+	"allegro5/joystick.h"
+	"allegro5/threads.h"
+	"allegro5/display.h"
+	"allegro5/transformations.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap.h"
+	"allegro5/tls.h"
+	"allegro5/file.h"
+	"allegro5/fshook.h"
+	"allegro5/path.h"
+	"allegro5/fmaths.h"
+	"allegro5/config.h"
+	"allegro5/alcompat.h"
+
+1340546880 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1340546880 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/aldjgpp.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/aldmc.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/albecfg.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alqnxcfg.h"
+	"allegro5/platform/alwizcfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1380823910 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\platform\alplatf.h
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\platform\alwizcfg.h
+	<fcntl.h>
+	<unistd.h>
+	"allegro5/platform/alplatf.h"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\platform\alunix.h
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1340546880 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\config.h
+	"allegro5/file.h"
+
+1330864568 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1340546878 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\path.h
+	"allegro5/base.h"
+
+1340546880 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\utf8.h
+	"allegro5/base.h"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\memory.h
+
+1340546880 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\error.h
+	"allegro5/base.h"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\altime.h
+	"allegro5/base.h"
+
+1300072372 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\events.h
+	"allegro5/base.h"
+
+1296182512 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\mouse.h
+	"allegro5/base.h"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\timer.h
+	"allegro5/base.h"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/keycodes.h"
+
+1296182512 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\keycodes.h
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\joystick.h
+	"allegro5/base.h"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\threads.h
+	"allegro5/altime.h"
+
+1340546880 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\display.h
+	"allegro5/color.h"
+	"allegro5/bitmap.h"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\color.h
+
+1330864568 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1292522530 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\transformations.h
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\tls.h
+	"allegro5/base.h"
+
+1340546878 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\fixed.h
+	"allegro5/base.h"
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\inline\fmaths.inl
+
+1289806922 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\alcompat.h
+
+1340546886 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1289806932 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\allegro_image.h
+
+1330864572 c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\include\allegro\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1387721717 source:c:\users\jfm11\documents\my teaching\c programming\c programming2014-2015\assignment\src\assignment.c
+	<graphics_lib.h>
+	<amio_lib.h>
+
+1447174518 source:c:\users\ad953\google drive\clabs-1516\assignment-project\include\amio_lib_functions.c
+	<amio_lib.h>
+
+1447174517 c:\users\ad953\google drive\clabs-1516\assignment-project\include\amio_lib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"sndfile.h"
+	"portaudio.h"
+	"portmidi.h"
+	"porttime.h"
+
+1447174627 c:\users\ad953\google drive\clabs-1516\assignment-project\include\libsndfile\sndfile.h
+	<stdio.h>
+	<sys/types.h>
+
+1447174628 c:\users\ad953\google drive\clabs-1516\assignment-project\include\portaudio\portaudio.h
+
+1447174629 c:\users\ad953\google drive\clabs-1516\assignment-project\include\portmidi\portmidi.h
+	<stdint.h>
+
+1447174630 c:\users\ad953\google drive\clabs-1516\assignment-project\include\portmidi\porttime.h
+	<stdint.h>
+
+1447174520 source:c:\users\ad953\google drive\clabs-1516\assignment-project\include\graphics_lib_functions.c
+	<graphics_lib.h>
+
+1447174519 c:\users\ad953\google drive\clabs-1516\assignment-project\include\graphics_lib.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<termios.h>
+	<unistd.h>
+
+1447174764 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/system.h"
+	"allegro5/memory.h"
+	"allegro5/debug.h"
+	"allegro5/error.h"
+	"allegro5/utf8.h"
+	"allegro5/altime.h"
+	"allegro5/events.h"
+	"allegro5/mouse.h"
+	"allegro5/timer.h"
+	"allegro5/keyboard.h"
+	"allegro5/joystick.h"
+	"allegro5/threads.h"
+	"allegro5/display.h"
+	"allegro5/transformations.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap.h"
+	"allegro5/tls.h"
+	"allegro5/file.h"
+	"allegro5/fshook.h"
+	"allegro5/path.h"
+	"allegro5/fmaths.h"
+	"allegro5/config.h"
+	"allegro5/alcompat.h"
+
+1447174784 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1447175042 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/aldjgpp.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/aldmc.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/albecfg.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alqnxcfg.h"
+	"allegro5/platform/alwizcfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1447175066 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\platform\alplatf.h
+
+1447175070 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1447175062 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1447175059 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1447175058 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1447175063 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1447175061 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1447175065 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1447175073 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\platform\alwizcfg.h
+	<fcntl.h>
+	<unistd.h>
+	"allegro5/platform/alplatf.h"
+
+1447175068 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1447175069 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\platform\alunix.h
+
+1447175075 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1447175074 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1447174805 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1447174788 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\config.h
+	"allegro5/file.h"
+
+1447174794 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1447174804 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\path.h
+	"allegro5/base.h"
+
+1447174811 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\utf8.h
+	"allegro5/base.h"
+
+1447174802 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\memory.h
+
+1447174789 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1447174791 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\error.h
+	"allegro5/base.h"
+
+1447174783 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\altime.h
+	"allegro5/base.h"
+
+1447174792 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\events.h
+	"allegro5/base.h"
+
+1447174803 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\mouse.h
+	"allegro5/base.h"
+
+1447174807 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\timer.h
+	"allegro5/base.h"
+
+1447174799 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/keycodes.h"
+
+1447174800 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\keycodes.h
+
+1447174798 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\joystick.h
+	"allegro5/base.h"
+
+1447174806 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\threads.h
+	"allegro5/altime.h"
+
+1447174790 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\display.h
+	"allegro5/color.h"
+	"allegro5/bitmap.h"
+
+1447174787 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\color.h
+
+1447174785 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1447174809 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\transformations.h
+
+1447174786 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1447174808 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\tls.h
+	"allegro5/base.h"
+
+1447174797 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1447174796 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1447174795 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\fixed.h
+	"allegro5/base.h"
+
+1447174994 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\inline\fmaths.inl
+
+1447174762 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\alcompat.h
+
+1447174779 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1447174773 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\allegro_image.h
+
+1447174772 c:\users\ad953\google drive\clabs-1516\assignment-project\include\allegro\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1447174567 source:c:\users\ad953\google drive\clabs-1516\assignment-project\src\assignment.c
+	<graphics_lib.h>
+	<amio_lib.h>
+
+1447145718 source:e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\amio_lib_functions.c
+	<amio_lib.h>
+
+1447145716 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\amio_lib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"sndfile.h"
+	"portaudio.h"
+	"portmidi.h"
+	"porttime.h"
+
+1447145826 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\libsndfile\sndfile.h
+	<stdio.h>
+	<sys/types.h>
+
+1447145828 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\portaudio\portaudio.h
+
+1447145828 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\portmidi\portmidi.h
+	<stdint.h>
+
+1447145830 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\portmidi\porttime.h
+	<stdint.h>
+
+1447145720 source:e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\graphics_lib_functions.c
+	<graphics_lib.h>
+
+1447145718 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\graphics_lib.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<termios.h>
+	<unistd.h>
+
+1447145964 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/system.h"
+	"allegro5/memory.h"
+	"allegro5/debug.h"
+	"allegro5/error.h"
+	"allegro5/utf8.h"
+	"allegro5/altime.h"
+	"allegro5/events.h"
+	"allegro5/mouse.h"
+	"allegro5/timer.h"
+	"allegro5/keyboard.h"
+	"allegro5/joystick.h"
+	"allegro5/threads.h"
+	"allegro5/display.h"
+	"allegro5/transformations.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap.h"
+	"allegro5/tls.h"
+	"allegro5/file.h"
+	"allegro5/fshook.h"
+	"allegro5/path.h"
+	"allegro5/fmaths.h"
+	"allegro5/config.h"
+	"allegro5/alcompat.h"
+
+1447145984 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1447146242 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/aldjgpp.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/aldmc.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/albecfg.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alqnxcfg.h"
+	"allegro5/platform/alwizcfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1447146266 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\platform\alplatf.h
+
+1447146270 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1447146262 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1447146258 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1447146258 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1447146262 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1447146260 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1447146264 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1447146272 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\platform\alwizcfg.h
+	<fcntl.h>
+	<unistd.h>
+	"allegro5/platform/alplatf.h"
+
+1447146268 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1447146268 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\platform\alunix.h
+
+1447146274 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1447146274 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1447146004 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1447145988 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\config.h
+	"allegro5/file.h"
+
+1447145994 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1447146004 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\path.h
+	"allegro5/base.h"
+
+1447146010 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\utf8.h
+	"allegro5/base.h"
+
+1447146002 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\memory.h
+
+1447145988 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1447145990 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\error.h
+	"allegro5/base.h"
+
+1447145982 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\altime.h
+	"allegro5/base.h"
+
+1447145992 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\events.h
+	"allegro5/base.h"
+
+1447146002 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\mouse.h
+	"allegro5/base.h"
+
+1447146006 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\timer.h
+	"allegro5/base.h"
+
+1447145998 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/keycodes.h"
+
+1447146000 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\keycodes.h
+
+1447145998 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\joystick.h
+	"allegro5/base.h"
+
+1447146006 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\threads.h
+	"allegro5/altime.h"
+
+1447145990 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\display.h
+	"allegro5/color.h"
+	"allegro5/bitmap.h"
+
+1447145986 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\color.h
+
+1447145984 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1447146008 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\transformations.h
+
+1447145986 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1447146008 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\tls.h
+	"allegro5/base.h"
+
+1447145996 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1447145996 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1447145994 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\fixed.h
+	"allegro5/base.h"
+
+1447146194 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\inline\fmaths.inl
+
+1447145962 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\alcompat.h
+
+1447145978 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1447145972 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\allegro_image.h
+
+1447145972 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\allegro\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1574618318 source:e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\src\archery.c
+	<graphics_lib.h>
+	"archery.h"
+
+1574618331 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\include\archery.h
+
+1574618316 source:e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\src\main.c
+	<stdio.h>
+	"archery.h"
+
+1449723866 source:e:\msc dse\autumn term\c programming for msc\assignment\assignment-project\src\assignment.c
+	<graphics_lib.h>
+	<amio_lib.h>
+
+1447145718 source:e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\amio_lib_functions.c
+	<amio_lib.h>
+
+1447145716 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\amio_lib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"sndfile.h"
+	"portaudio.h"
+	"portmidi.h"
+	"porttime.h"
+
+1447145826 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\libsndfile\sndfile.h
+	<stdio.h>
+	<sys/types.h>
+
+1447145828 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\portaudio\portaudio.h
+
+1447145828 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\portmidi\portmidi.h
+	<stdint.h>
+
+1447145830 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\portmidi\porttime.h
+	<stdint.h>
+
+1447145720 source:e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\graphics_lib_functions.c
+	<graphics_lib.h>
+
+1447145718 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\graphics_lib.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<termios.h>
+	<unistd.h>
+
+1447145964 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/system.h"
+	"allegro5/memory.h"
+	"allegro5/debug.h"
+	"allegro5/error.h"
+	"allegro5/utf8.h"
+	"allegro5/altime.h"
+	"allegro5/events.h"
+	"allegro5/mouse.h"
+	"allegro5/timer.h"
+	"allegro5/keyboard.h"
+	"allegro5/joystick.h"
+	"allegro5/threads.h"
+	"allegro5/display.h"
+	"allegro5/transformations.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap.h"
+	"allegro5/tls.h"
+	"allegro5/file.h"
+	"allegro5/fshook.h"
+	"allegro5/path.h"
+	"allegro5/fmaths.h"
+	"allegro5/config.h"
+	"allegro5/alcompat.h"
+
+1447145984 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1447146242 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/aldjgpp.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/aldmc.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/albecfg.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alqnxcfg.h"
+	"allegro5/platform/alwizcfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1447146266 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\platform\alplatf.h
+
+1447146270 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1447146262 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1447146258 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1447146258 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1447146262 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1447146260 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1447146264 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1447146272 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\platform\alwizcfg.h
+	<fcntl.h>
+	<unistd.h>
+	"allegro5/platform/alplatf.h"
+
+1447146268 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1447146268 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\platform\alunix.h
+
+1447146274 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1447146274 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1447146004 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1447145988 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\config.h
+	"allegro5/file.h"
+
+1447145994 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1447146004 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\path.h
+	"allegro5/base.h"
+
+1447146010 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\utf8.h
+	"allegro5/base.h"
+
+1447146002 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\memory.h
+
+1447145988 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1447145990 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\error.h
+	"allegro5/base.h"
+
+1447145982 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\altime.h
+	"allegro5/base.h"
+
+1447145992 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\events.h
+	"allegro5/base.h"
+
+1447146002 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\mouse.h
+	"allegro5/base.h"
+
+1447146006 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\timer.h
+	"allegro5/base.h"
+
+1447145998 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/keycodes.h"
+
+1447146000 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\keycodes.h
+
+1447145998 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\joystick.h
+	"allegro5/base.h"
+
+1447146006 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\threads.h
+	"allegro5/altime.h"
+
+1447145990 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\display.h
+	"allegro5/color.h"
+	"allegro5/bitmap.h"
+
+1447145986 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\color.h
+
+1447145984 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1447146008 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\transformations.h
+
+1447145986 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1447146008 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\tls.h
+	"allegro5/base.h"
+
+1447145996 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1447145996 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1447145994 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\fixed.h
+	"allegro5/base.h"
+
+1447146194 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\inline\fmaths.inl
+
+1447145962 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\alcompat.h
+
+1447145978 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1447145972 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\allegro_image.h
+
+1447145972 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\allegro\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1579558323 source:e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\src\archery.c
+	<graphics_lib.h>
+	<amio_lib.h>
+	<conio.h>
+	"archery.h"
+	<math.h>
+
+1579476298 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\include\archery.h
+
+1579558746 source:e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\src\main.c
+	<stdio.h>
+	<graphics_lib.h>
+	"archery.h"
+
+1447145718 source:m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\amio_lib_functions.c
+	<amio_lib.h>
+
+1447145716 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\amio_lib.h
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<math.h>
+	"sndfile.h"
+	"portaudio.h"
+	"portmidi.h"
+	"porttime.h"
+
+1447145826 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\libsndfile\sndfile.h
+	<stdio.h>
+	<sys/types.h>
+
+1447145828 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\portaudio\portaudio.h
+
+1447145828 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\portmidi\portmidi.h
+	<stdint.h>
+
+1447145830 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\portmidi\porttime.h
+	<stdint.h>
+
+1447145720 source:m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\graphics_lib_functions.c
+	<graphics_lib.h>
+
+1447145718 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\graphics_lib.h
+	<stdio.h>
+	<stdlib.h>
+	<conio.h>
+	<string.h>
+	<allegro5/allegro.h>
+	<allegro5/allegro_primitives.h>
+	<allegro5/allegro_image.h>
+	<allegro5/allegro_font.h>
+	<termios.h>
+	<unistd.h>
+
+1447145964 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\allegro.h
+	"allegro5/base.h"
+	"allegro5/system.h"
+	"allegro5/memory.h"
+	"allegro5/debug.h"
+	"allegro5/error.h"
+	"allegro5/utf8.h"
+	"allegro5/altime.h"
+	"allegro5/events.h"
+	"allegro5/mouse.h"
+	"allegro5/timer.h"
+	"allegro5/keyboard.h"
+	"allegro5/joystick.h"
+	"allegro5/threads.h"
+	"allegro5/display.h"
+	"allegro5/transformations.h"
+	"allegro5/bitmap_io.h"
+	"allegro5/bitmap.h"
+	"allegro5/tls.h"
+	"allegro5/file.h"
+	"allegro5/fshook.h"
+	"allegro5/path.h"
+	"allegro5/fmaths.h"
+	"allegro5/config.h"
+	"allegro5/alcompat.h"
+
+1447145984 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\base.h
+	<errno.h>
+	<limits.h>
+	<limits.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<time.h>
+	<string.h>
+	<sys/types.h>
+	<fortify/fortify.h>
+	<dmalloc.h>
+	"allegro5/internal/alconfig.h"
+
+1447146242 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\internal\alconfig.h
+	"allegro5/platform/alplatf.h"
+	"allegro5/platform/aldjgpp.h"
+	"allegro5/platform/alwatcom.h"
+	"allegro5/platform/almngw32.h"
+	"allegro5/platform/aldmc.h"
+	"allegro5/platform/albcc32.h"
+	"allegro5/platform/almsvc.h"
+	"allegro5/platform/albecfg.h"
+	"allegro5/platform/aliphonecfg.h"
+	"allegro5/platform/alosxcfg.h"
+	"allegro5/platform/alqnxcfg.h"
+	"allegro5/platform/alwizcfg.h"
+	"allegro5/platform/alucfg.h"
+	"allegro5/platform/astdint.h"
+	"allegro5/platform/astdbool.h"
+
+1447146266 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\platform\alplatf.h
+
+1447146270 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\platform\alwatcom.h
+	<io.h>
+	<i86.h>
+	<conio.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1447146262 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\platform\almngw32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1447146258 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\platform\aldmc.h
+	<io.h>
+	<fcntl.h>
+	<stdint.h>
+
+1447146258 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\platform\albcc32.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+
+1447146262 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\platform\almsvc.h
+	<io.h>
+	<fcntl.h>
+	<direct.h>
+	<malloc.h>
+	"allegro5/platform/alplatf.h"
+
+1447146260 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\platform\aliphonecfg.h
+	<fcntl.h>
+	<unistd.h>
+
+1447146264 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\platform\alosxcfg.h
+	"allegro5/platform/alplatf.h"
+
+1447146272 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\platform\alwizcfg.h
+	<fcntl.h>
+	<unistd.h>
+	"allegro5/platform/alplatf.h"
+
+1447146268 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\platform\alucfg.h
+	<fcntl.h>
+	<unistd.h>
+	"alunix.h"
+	"allegro5/platform/alplatf.h"
+
+1447146268 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\platform\alunix.h
+
+1447146274 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\platform\astdint.h
+	<inttypes.h>
+	<stdint.h>
+
+1447146274 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\platform\astdbool.h
+	<stdbool.h>
+
+1447146004 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\system.h
+	"allegro5/config.h"
+	"allegro5/path.h"
+
+1447145988 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\config.h
+	"allegro5/file.h"
+
+1447145994 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\file.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	"allegro5/utf8.h"
+
+1447146004 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\path.h
+	"allegro5/base.h"
+
+1447146010 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\utf8.h
+	"allegro5/base.h"
+
+1447146002 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\memory.h
+
+1447145988 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\debug.h
+	<assert.h>
+	"allegro5/base.h"
+
+1447145990 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\error.h
+	"allegro5/base.h"
+
+1447145982 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\altime.h
+	"allegro5/base.h"
+
+1447145992 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\events.h
+	"allegro5/base.h"
+
+1447146002 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\mouse.h
+	"allegro5/base.h"
+
+1447146006 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\timer.h
+	"allegro5/base.h"
+
+1447145998 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\keyboard.h
+	"allegro5/base.h"
+	"allegro5/keycodes.h"
+
+1447146000 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\keycodes.h
+
+1447145998 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\joystick.h
+	"allegro5/base.h"
+
+1447146006 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\threads.h
+	"allegro5/altime.h"
+
+1447145990 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\display.h
+	"allegro5/color.h"
+	"allegro5/bitmap.h"
+
+1447145986 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\color.h
+
+1447145984 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\bitmap.h
+	"allegro5/color.h"
+
+1447146008 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\transformations.h
+
+1447145986 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\bitmap_io.h
+	"allegro5/bitmap.h"
+	"allegro5/file.h"
+
+1447146008 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\tls.h
+	"allegro5/base.h"
+
+1447145996 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\fshook.h
+	"allegro5/base.h"
+	"allegro5/path.h"
+	<sys/types.h>
+
+1447145996 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\fmaths.h
+	"allegro5/base.h"
+	"allegro5/fixed.h"
+	"allegro5/inline/fmaths.inl"
+
+1447145994 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\fixed.h
+	"allegro5/base.h"
+
+1447146194 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\inline\fmaths.inl
+
+1447145962 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\alcompat.h
+
+1447145978 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\allegro_primitives.h
+	<allegro5/allegro.h>
+
+1447145972 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\allegro_image.h
+
+1447145972 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\allegro\allegro5\allegro_font.h
+	"allegro5/allegro.h"
+
+1579460157 source:m:\msc dse\autumn term\c programming\assignment\assignment-project-new\src\archery.c
+	<graphics_lib.h>
+	<amio_lib.h>
+	<conio.h>
+	"archery.h"
+	<math.h>
+
+1579461514 m:\msc dse\autumn term\c programming\assignment\assignment-project-new\include\archery.h
+
+1579460279 source:m:\msc dse\autumn term\c programming\assignment\assignment-project-new\src\main.c
+	<stdio.h>
+	<graphics_lib.h>
+	"archery.h"
+
+1579112152 source:m:\msc dse\autumn term\c programming\assignment\assignment-project-new\src\test_audio.c
+	"amio_lib.h"
+	"conio.h"
+	"archery.h"
+
+1579910804 source:e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\src\sys_main.c
+	<graphics_lib.h>
+	<stdio.h>
+	<conio.h>
+	"sys_prog.h"
+
+1579908025 e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\src\sys_prog.h
+
+1579911132 source:e:\msc dse\autumn term\c programming for msc\assignment\assignment-project-new\src\sys_prog.c
+	"sys_prog.h"
+

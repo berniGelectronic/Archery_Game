@@ -1,0 +1,986 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="assignment" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="assignment">
+				<Option output="bin/Debug/assignment" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DALLEGRO_STATICLINK" />
+					<Add directory="include/allegro" />
+					<Add directory="include/portmidi" />
+					<Add directory="include/portaudio" />
+					<Add directory="include/libsndfile" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lgcc_eh" />
+					<Add option="-static-libgcc" />
+					<Add option="-static-libstdc++" />
+					<Add option="-lwinmm" />
+					<Add option="-lportmidi" />
+					<Add option="-lportaudio-2" />
+					<Add library="lib/liballegro_color-static.a" />
+					<Add library="lib/liballegro_dialog-static.a" />
+					<Add library="lib/liballegro_font-static.a" />
+					<Add library="lib/liballegro_image-static.a" />
+					<Add library="lib/liballegro_main-static.a" />
+					<Add library="lib/liballegro_memfile-static.a" />
+					<Add library="lib/liballegro_physfs-static.a" />
+					<Add library="lib/liballegro_primitives-static.a" />
+					<Add library="lib/liballegro_ttf-static.a" />
+					<Add library="lib/liballegro-static.a" />
+					<Add library="lib/libgdiplus.a" />
+					<Add library="lib/libuuid.a" />
+					<Add library="lib/libkernel32.a" />
+					<Add library="lib/libwinmm.a" />
+					<Add library="lib/libpsapi.a" />
+					<Add library="lib/libopengl32.a" />
+					<Add library="lib/libglu32.a" />
+					<Add library="lib/libuser32.a" />
+					<Add library="lib/libcomdlg32.a" />
+					<Add library="lib/libgdi32.a" />
+					<Add library="lib/libshell32.a" />
+					<Add library="lib/libole32.a" />
+					<Add library="lib/libadvapi32.a" />
+					<Add library="lib/libws2_32.a" />
+					<Add library="lib/libshlwapi.a" />
+					<Add library="lib/libsndfile.a" />
+					<Add directory="lib" />
+				</Linker>
+			</Target>
+			<Target title="main">
+				<Option output="bin/Debug/assignment" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DALLEGRO_STATICLINK" />
+					<Add directory="include/allegro" />
+					<Add directory="include/portmidi" />
+					<Add directory="include/portaudio" />
+					<Add directory="include/libsndfile" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lgcc_eh" />
+					<Add option="-static-libgcc" />
+					<Add option="-static-libstdc++" />
+					<Add option="-lwinmm" />
+					<Add option="-lportmidi" />
+					<Add option="-lportaudio-2" />
+					<Add library="lib/liballegro_color-static.a" />
+					<Add library="lib/liballegro_dialog-static.a" />
+					<Add library="lib/liballegro_font-static.a" />
+					<Add library="lib/liballegro_image-static.a" />
+					<Add library="lib/liballegro_main-static.a" />
+					<Add library="lib/liballegro_memfile-static.a" />
+					<Add library="lib/liballegro_physfs-static.a" />
+					<Add library="lib/liballegro_primitives-static.a" />
+					<Add library="lib/liballegro_ttf-static.a" />
+					<Add library="lib/liballegro-static.a" />
+					<Add library="lib/libgdiplus.a" />
+					<Add library="lib/libuuid.a" />
+					<Add library="lib/libkernel32.a" />
+					<Add library="lib/libwinmm.a" />
+					<Add library="lib/libpsapi.a" />
+					<Add library="lib/libopengl32.a" />
+					<Add library="lib/libglu32.a" />
+					<Add library="lib/libuser32.a" />
+					<Add library="lib/libcomdlg32.a" />
+					<Add library="lib/libgdi32.a" />
+					<Add library="lib/libshell32.a" />
+					<Add library="lib/libole32.a" />
+					<Add library="lib/libadvapi32.a" />
+					<Add library="lib/libws2_32.a" />
+					<Add library="lib/libshlwapi.a" />
+					<Add library="lib/libsndfile.a" />
+					<Add directory="lib" />
+				</Linker>
+			</Target>
+			<Target title="test">
+				<Option output="bin/Debug/assignment" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DALLEGRO_STATICLINK" />
+					<Add directory="include/allegro" />
+					<Add directory="include/portmidi" />
+					<Add directory="include/portaudio" />
+					<Add directory="include/libsndfile" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-lgcc_eh" />
+					<Add option="-static-libgcc" />
+					<Add option="-static-libstdc++" />
+					<Add option="-lwinmm" />
+					<Add option="-lportmidi" />
+					<Add option="-lportaudio-2" />
+					<Add library="lib/liballegro_color-static.a" />
+					<Add library="lib/liballegro_dialog-static.a" />
+					<Add library="lib/liballegro_font-static.a" />
+					<Add library="lib/liballegro_image-static.a" />
+					<Add library="lib/liballegro_main-static.a" />
+					<Add library="lib/liballegro_memfile-static.a" />
+					<Add library="lib/liballegro_physfs-static.a" />
+					<Add library="lib/liballegro_primitives-static.a" />
+					<Add library="lib/liballegro_ttf-static.a" />
+					<Add library="lib/liballegro-static.a" />
+					<Add library="lib/libgdiplus.a" />
+					<Add library="lib/libuuid.a" />
+					<Add library="lib/libkernel32.a" />
+					<Add library="lib/libwinmm.a" />
+					<Add library="lib/libpsapi.a" />
+					<Add library="lib/libopengl32.a" />
+					<Add library="lib/libglu32.a" />
+					<Add library="lib/libuser32.a" />
+					<Add library="lib/libcomdlg32.a" />
+					<Add library="lib/libgdi32.a" />
+					<Add library="lib/libshell32.a" />
+					<Add library="lib/libole32.a" />
+					<Add library="lib/libadvapi32.a" />
+					<Add library="lib/libws2_32.a" />
+					<Add library="lib/libshlwapi.a" />
+					<Add library="lib/libsndfile.a" />
+					<Add directory="lib" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="include/allegro/AL/al.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/AL/alc.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/AL/alext.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/AL/efx-creative.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/AL/efx.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/FLAC/all.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/FLAC/assert.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/FLAC/callback.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/FLAC/export.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/FLAC/format.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/FLAC/metadata.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/FLAC/ordinals.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/FLAC/stream_decoder.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/FLAC/stream_encoder.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/alcompat.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/alinline.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro5.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro_acodec.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro_audio.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro_color.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro_direct3d.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro_font.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro_image.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro_iphone.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro_memfile.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro_native_dialog.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro_opengl.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro_physfs.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro_primitives.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro_ttf.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/allegro_windows.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/altime.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/base.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/bitmap.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/bitmap_io.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/color.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/config.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/debug.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/display.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/error.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/events.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/file.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/fixed.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/fmaths.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/fshook.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_aatree.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_acodec_cfg.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_atomicops.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_audio.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_audio_cfg.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_bitmap.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_blend.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_config.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_convert.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_direct3d.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_display.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_dtor.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_events.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_file.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_float.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_fshook.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_gp2xwiz.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_image.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_image_cfg.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_iphone.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_joystick.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_keyboard.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_list.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_mouse.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_native_dialog.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_native_dialog_cfg.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_opengl.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_path.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_pixels.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_prim.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_prim_directx.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_prim_opengl.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_prim_soft.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_system.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_thread.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_timer.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_tls.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_tri_soft.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_ttf_cfg.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_vector.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/aintern_xglx.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/alconfig.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/internal/bstrlib.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/joystick.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/keyboard.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/keycodes.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/memory.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/mouse.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/opengl/GLext/gl_ext_alias.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/opengl/GLext/gl_ext_api.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/opengl/GLext/gl_ext_defs.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/opengl/GLext/gl_ext_list.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/opengl/GLext/glx_ext_alias.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/opengl/GLext/glx_ext_api.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/opengl/GLext/glx_ext_defs.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/opengl/GLext/glx_ext_list.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/opengl/GLext/wgl_ext_alias.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/opengl/GLext/wgl_ext_api.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/opengl/GLext/wgl_ext_defs.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/opengl/GLext/wgl_ext_list.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/opengl/gl_ext.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/path.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/aintiphone.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/aintlnx.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/aintosx.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/aintunix.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/aintuthr.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/aintwin.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/aintwiz.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/aintwthr.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/aintxglx.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/al386gcc.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/al386vc.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/al386wat.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/albcc32.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/aldmc.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/aliphone.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/aliphonecfg.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/almngw32.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/almsvc.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/alosx.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/alosxcfg.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/alplatf.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/alucfg.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/alunix.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/alwatcom.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/alwin.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/alwiz.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/alwizcfg.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/astdbool.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/platform/astdint.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/system.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/threads.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/timer.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/tls.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/transformations.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/allegro5/utf8.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/dumb.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/config/ftconfig.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/config/ftheader.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/config/ftmodule.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/config/ftoption.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/config/ftstdlib.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/freetype.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftadvanc.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftbbox.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftbdf.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftbitmap.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftbzip2.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftcache.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftchapters.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftcid.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/fterrdef.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/fterrors.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftgasp.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftglyph.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftgxval.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftgzip.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftimage.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftincrem.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftlcdfil.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftlist.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftlzw.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftmac.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftmm.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftmodapi.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftmoderr.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftotval.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftoutln.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftpfr.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftrender.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftsizes.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftsnames.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftstroke.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftsynth.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftsystem.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/fttrigon.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/fttypes.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftwinfnt.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ftxf86.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/autohint.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/ftcalc.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/ftdebug.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/ftdriver.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/ftgloadr.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/ftmemory.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/ftobjs.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/ftpic.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/ftrfork.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/ftserv.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/ftstream.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/fttrace.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/ftvalid.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/internal.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/psaux.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/pshints.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svbdf.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svcid.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svgldict.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svgxval.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svkern.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svmm.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svotval.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svpfr.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svpostnm.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svpscmap.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svpsinfo.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svsfnt.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svttcmap.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svtteng.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svttglyf.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svwinfnt.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/services/svxf86nm.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/sfnt.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/t1types.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/internal/tttypes.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/t1tables.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ttnameid.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/tttables.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/tttags.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/freetype/ttunpat.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/ft2build.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/ogg/ogg.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/ogg/os_types.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/physfs.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/vorbis/codec.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/vorbis/vorbisenc.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/vorbis/vorbisfile.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/zconf.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/allegro/zlib.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/amio_lib.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/amio_lib_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="include/archery.h">
+			<Option target="assignment" />
+			<Option target="main" />
+		</Unit>
+		<Unit filename="include/graphics_lib.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/graphics_lib_functions.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="include/libsndfile/sndfile.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/license.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/portaudio/portaudio.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/portmidi/portmidi.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="include/portmidi/porttime.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/allegro_examples/ex_threads.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/allegro_examples/ex_threads2.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/allegro_examples/ex_timedwait.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/allegro_examples/ex_timer.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/allegro_examples/ex_transform.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/allegro_examples/ex_ttf.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/allegro_examples/ex_user_events.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/allegro_examples/ex_utf8.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/allegro_examples/ex_vsync.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/allegro_examples/ex_warp_mouse.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/allegro_examples/ex_windows.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/allegro_examples/ex_winfull.c">
+			<Option compilerVar="CC" />
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/allegro_examples/nihgui.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/allegro_examples/nihgui.hpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="src/archery.c">
+			<Option compilerVar="CC" />
+			<Option target="main" />
+		</Unit>
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+			<Option target="main" />
+		</Unit>
+		<Unit filename="src/sys_prog.h">
+			<Option target="test" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+			<DoxyBlocks>
+				<comment_style block="0" line="0" />
+				<doxyfile_project project_number="1" />
+				<doxyfile_build extract_all="1" extract_private="1" extract_static="1" />
+				<doxyfile_warnings warn_if_undocumented="1" />
+				<doxyfile_output />
+				<doxyfile_dot class_diagrams="1" />
+				<general />
+			</DoxyBlocks>
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
